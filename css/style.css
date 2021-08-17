@@ -1,0 +1,128 @@
+*{
+    padding:0px;
+    margin: 0px;;
+}
+ 
+
+#signup-anch {
+    float: right;
+  
+}
+#sig-cancel{
+    margin-left:10em;
+
+}
+ 
+.form-brd{
+border: 2px ; 
+padding:3%;
+padding-right:3%!important;
+padding-left:3%!important;
+background-color:floralwhite
+
+}
+/* .body-clr{
+    background-image: url(../images/kerala1.jpg)!important;
+    background-size:cover!important;
+    
+} */
+/* .crd-hds{
+   text-align: center;
+   text-transform:uppercase;
+   color: #F89A3E;
+}
+#sub-heads{
+  text-align: center;
+  font-style: italic;
+} */
+
+#district-head{
+    text-align: center;
+    color:#F89A3E;
+
+}
+#menu-chng:hover{
+  color: #F89A3E!important;
+  border: 1px solid #F89A3E!important;
+
+}
+
+#dist-cont{
+    text-align: justify;
+    /* text-transform: capitalize; */
+    padding: 2px;
+}
+#place-discription{
+text-align: justify;
+padding: 1em;}
+#dis-img{
+padding: 1.5em;
+margin-top: 5%;
+}
+/* #place-head{
+    text-align: center;
+    text-transform: uppercase;
+    
+} */
+#head-line{
+border: 1px solid red;
+}
+#dis-head{
+    text-align: center;
+    border: solid darkseagreen;
+    background-color:lemonchiffon;
+    
+
+}
+.di-test{
+    transition: width 2s, height 4s;
+border: 1px solid blue;
+width: 420px;
+
+}
+.di-test:hover {
+    width: 700px;
+    height: 400px;
+  }
+
+  .selected:hover{
+  /* text: #F89A3E; */
+  /* border: solid 1px #F89A3E; */
+  color: #F89A3E!important;
+  transition: all;
+  }
+  .h-zoom:hover{
+  /* -ms-transform: scale(1); /* IE 9 */
+  /* -webkit-transform: scale(1); Safari 3-8 */
+  /* transform: scale(1.5);  */ 
+  width: 450px;
+  height: 320px;
+  }
+
+
+  .c-test{
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-timing-function: ease;
+    color:rgb(107, 194, 245)
+  }
+  @keyframes mymove {
+    from {left:0px;}
+        to {left: 220px;} 
+       
+   
+  }
+
+
+  /* background-video */
+  .mbr-background-video,
+.mbr-background-video-preview {
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+  
+  
