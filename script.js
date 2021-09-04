@@ -27,7 +27,7 @@ msg.innerHTML="Contact Number can't be empty";
 // msg.style.color="#ff34aa";
 }
 if(password.value==0){
-  password.style.border="solid 2px red";
+  // password.style.border="solid 2px red";
 passalt.innerHTML="Password can't be empty";
 // passalt.style.color="#ff34aa";
 }
